@@ -3,7 +3,6 @@
 
 # maven ignore
 target/
-ML/
 
 # eclipse ignore
 .settings/
@@ -15,6 +14,7 @@ ML/
 *.ipr
 *.iml
 *.iws
+*.txt
 
 # temp ignore
 *.log
