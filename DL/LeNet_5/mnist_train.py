@@ -18,7 +18,7 @@ REGULARAZTION_RATE = 0.0001
 TRAINING_STEPS = 30000
 MOVING_AVERAGE_DECAY = 0.99
 # 模型保存的路径和文件名
-MODEL_SAVE_PATH = "model/"
+MODEL_SAVE_PATH = ""
 MODEL_NAME = "model.ckpt"
 
 def train(mnist):
