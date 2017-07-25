@@ -22,6 +22,7 @@ target/
 *.diff
 *.patch
 *.tmp
+*.gz
 
 # system ignore
 .DS_Store
