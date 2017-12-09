@@ -24,8 +24,7 @@ def classify0(inX, dataSet, labels, k):
         voteIlable = labels[sortedDistance[i]]
         classCount[voteIlable] = classCount.get(voteIlable, 0) +1
 
-    sortedClassCount = sorted(classCount.iteritems(),
-    key = operator.itemgetter(1), reverse = True)
+    sortedClassCount = sorted(classCount.iteritems(), key = operator.itemgetter(1), reverse = True)
     return sortedClassCount[0][0]
 
 if __name__ == '__main__':
