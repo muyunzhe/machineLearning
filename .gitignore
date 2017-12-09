@@ -3,6 +3,7 @@
 
 # maven ignore
 target/
+model/
 
 # eclipse ignore
 .settings/
@@ -15,6 +16,7 @@ target/
 *.iml
 *.iws
 *.txt
+*.csv
 
 # temp ignore
 *.log
