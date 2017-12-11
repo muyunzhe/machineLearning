@@ -55,7 +55,7 @@ def choose_best_split(data_set, leaf_type=reg_leaf, err_type=reg_err, ops=(1,4))
         return None, leaf_type(data_set)
 
     mat0, mat1 = bin_split_data_set(data_set, best_index, best_value)
-    if shape(mat0)[0] < tolN or shapr(mat1)[0] < tolS:
+    if shape(mat0)[0] < tolN or shape(mat1)[0] < tolS:
         return None, leaf_type(data_set)
 
     return best_index, best_value
