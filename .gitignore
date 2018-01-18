@@ -4,6 +4,7 @@
 # maven ignore
 target/
 model/
+logs
 
 # eclipse ignore
 .settings/
