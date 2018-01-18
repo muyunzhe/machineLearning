@@ -4,7 +4,8 @@
 # maven ignore
 target/
 model/
-logs
+logs/
+tensorflow/
 
 # eclipse ignore
 .settings/
